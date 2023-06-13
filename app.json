@@ -5,6 +5,12 @@
       "bundler": "metro"
     },
     "name": "react_native_demo",
-    "slug": "react_native_demo"
+    "slug": "react_native_demo",
+    "android": {
+      "package": "com.example.android"
+    },
+    "ios": {
+      "bundleIdentifier": "com.example.ios"
+    }
   }
 }
